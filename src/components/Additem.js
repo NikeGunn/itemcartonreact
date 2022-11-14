@@ -23,7 +23,7 @@ class AddItem extends React.Component {
                 <div className="mb-3 col-4">
                     <label htmlFor="examplename" className="form-label fs-4 fw-bold">Item Price</label>
                     <input type="number" className="form-control" id="inputname" required = {true} placeholder='Enter Your Price Here'  name= "productPrice" onChange={(e)=> {this.setState({productPrice: e.currentTarget.value})}}
-                    value= {this.state.producPrice} />
+                    value= {this.state.productPrice} />
                 </div>
     
                 <button type="submit" className="btn btn-primary  col-4 fs-3" >Add Item</button>

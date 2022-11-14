@@ -9,7 +9,7 @@ function App() {
 
   let [productList, setProductList] = useState([
     {
-      name: "Iphone XS Max",
+      name: "Iphone X",
       price: 100000,
       Quantity: 0,
     },
@@ -75,6 +75,7 @@ function App() {
     })
     setProductList(newProductList)
   }
+
 
   return (
     <>
