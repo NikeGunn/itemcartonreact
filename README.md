@@ -1,5 +1,4 @@
-## Clone Project
-git@github.com:NikeGunn/itemcartonreact.git
+## Clone Project : git@github.com:NikeGunn/itemcartonreact.git
 
 ### `npm start`
 
